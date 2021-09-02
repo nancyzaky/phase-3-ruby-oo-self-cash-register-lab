@@ -38,9 +38,7 @@ def items
 end
 
 def void_last_transaction
-  self.newArr.pop
-  if self.newArr.length == 0
-  end
+
 self.total = self.total - self.lastPrice
 
 end
